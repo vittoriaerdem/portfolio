@@ -209,15 +209,17 @@ article {
   border-top: 8px solid #F3B9AE;
   text-align: center;
   line-height: 15px;
-  padding: 20px 80px 20px 80px;
+  padding: 20px 80px 10px 80px;
 }
 
-#bioTitle, #contactTitle {
+#bioTitle, #contactTitle, #projectTitle {
   font-size: 40px;
   font-family: 'Playfair Display', serif;
   padding-bottom: 20px;
   letter-spacing: 1px;
+  text-align: center;
 }
+
 #bioBrand {
   font-size: 22px;
   line-height: 25px;
@@ -263,15 +265,27 @@ textarea {
   height: 100px;
 } 
 
-
-#bioPhotos {
+#homeImages, #bioPhotos, #projectImages1, #projectImages2  {
   display: flex;
   justify-content: center;
 }
 
-.bioPhotos {
-  border: 1px solid black;
-  height: 200px;
+.bioPhotos, .projectPhotos {
+  height: 225px;
   width: 200px;
-  margin: 10px;
+  margin: 5px;
+  background-color: #EA806B;
+  line-height: 10px; 
+  text-align: center;
+}
+
+.bioInfo {
+  border: 1px solid black;
+  background-color: #EA806B;
+}
+
+.photoTitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2.5px;
 }

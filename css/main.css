@@ -9,6 +9,7 @@ body {
   font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
+  height: 500px;
 }
 
 .navigation {
@@ -198,7 +199,7 @@ article {
 #contactSubmit {
   text-decoration: none;
   font-size: 1.15em;
-  padding: 20px 20px 40px 20px;
+  padding: 20px 20px 20px 20px;
   background-color: #EA806B;
   color: #262626;         
   border-radius: 10px;   
@@ -209,7 +210,7 @@ article {
   border-top: 8px solid #F3B9AE;
   text-align: center;
   line-height: 15px;
-  padding: 20px 80px 10px 80px;
+  padding: 20px 215px 0px 215px;
 }
 
 #bioTitle, #contactTitle, #projectTitle {
@@ -255,7 +256,10 @@ label {
 input {
   display: inline;
   justify-content: left;
-  width: 200px;
+}
+
+input#name, input#email {
+  width: 206px;
   height: 30px;
 }
 
@@ -269,6 +273,7 @@ textarea {
   display: flex;
   justify-content: center;
 }
+
 
 .bioPhotos, .projectPhotos {
   height: 225px;
@@ -288,4 +293,14 @@ textarea {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   letter-spacing: 2.5px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.0rem;
+  background-color: #262626;
+  color: #F9DFDA;
+  text-align: center;
 }

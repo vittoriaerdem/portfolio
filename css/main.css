@@ -240,7 +240,11 @@ article {
 .contactForm {
   display: grid;
   justify-content: center;
-  height: 200px;
+  height: 150px;
+}
+
+form {
+  height: 400px;
 }
 
 label {
@@ -303,4 +307,14 @@ textarea {
   background-color: #262626;
   color: #F9DFDA;
   text-align: center;
+}
+
+.logo {
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+  display: grid;
+  margin-top: 100px;
+  justify-content: center;
+
 }

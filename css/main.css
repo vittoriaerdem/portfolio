@@ -1,3 +1,9 @@
+/* color: #F9DFDA pale pink
+color: #F3B9AE melon
+color: #EA806B salmon
+color: #65676A granite gray
+color: #4F545A davys gray */
+
 body {
   background-color: #F9DFDA;
   font-family: 'Playfair Display', serif;
@@ -8,6 +14,7 @@ body {
 .navigation {
   height: 70px;
   background: #262626;
+  border-bottom: 8px solid #EA806B;
 }
 
 .brand {
@@ -21,7 +28,8 @@ body {
 
 }
 .brand a, .brand a:visited {
-  color: #ffffff;
+  color: #F9DFDA;
+  letter-spacing: 1px;
   text-decoration: none;
 }
 .nav-container {
@@ -46,12 +54,12 @@ nav ul li a, nav ul li a:visited {
   padding: 0 20px;
   line-height: 70px;
   background: #262626;
-  color: #ffffff;
+  color: #F9DFDA;
   text-decoration: none;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
-  background: #2581DC;
-  color: #ffffff;
+  background: #EA806B;
+  color: #F9DFDA;
 }
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
@@ -122,7 +130,7 @@ nav ul li ul li a {
   border-radius: 1px;
   height: 5px;
   width: 35px;
-  background: #ffffff;
+  background: #F9DFDA;
   position: absolute;
   display: block;
   content: '';
@@ -150,4 +158,120 @@ article {
   max-width: 1000px;
   padding: 10px;
   margin-left: 15px;
+}
+
+.homeBody {
+  border-top: 8px solid #F3B9AE;
+  text-align: center;
+  line-height: 15px;
+  padding: 110px;
+}
+
+#name {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+#brand{
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2.5px;
+  color: #262626;
+}
+
+#bi, #contact {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #262626;
+}
+
+#viewProject{
+  text-decoration: none;
+  font-size: 1.15em;
+  padding: 20px;
+  background-color: #EA806B;
+  color: #262626;         
+  border-radius: 10px;   
+  font-family: 'Playfair Display', serif;    
+}
+
+#contactSubmit {
+  text-decoration: none;
+  font-size: 1.15em;
+  padding: 20px 20px 40px 20px;
+  background-color: #EA806B;
+  color: #262626;         
+  border-radius: 10px;   
+  font-family: 'Playfair Display', serif;    
+}
+
+#bioBody, #contactBody {
+  border-top: 8px solid #F3B9AE;
+  text-align: center;
+  line-height: 15px;
+  padding: 20px 80px 20px 80px;
+}
+
+#bioTitle, #contactTitle {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+#bioBrand {
+  font-size: 22px;
+  line-height: 25px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  letter-spacing: -.75px;
+  text-align: justify;
+}
+
+#bioStatement {
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+
+.contactForm {
+  display: grid;
+  justify-content: center;
+  height: 200px;
+}
+
+label {
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+  display: grid;
+  justify-content: left;
+  text-align: left;
+  width: 200px;
+}
+
+input {
+  display: inline;
+  justify-content: left;
+  width: 200px;
+  height: 30px;
+}
+
+textarea {
+  justify-content: left;
+  width: 200px;
+  height: 100px;
+} 
+
+
+#bioPhotos {
+  display: flex;
+  justify-content: center;
+}
+
+.bioPhotos {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
 }
